@@ -1,0 +1,28 @@
+#tema_principal {
+  background-color: tan;
+  display: flex;
+  height: 300px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+#tema_principal div {
+  background-color: steelblue;
+  padding: 20px;
+  margin: 5px;
+}
+#tema_principal2 {
+  background-color: tan;
+  margin-top: 2px;
+  height: 400px;
+  display: flex;
+  flex-flow: wrap-reverse column-reverse;
+  align-content: space-between;
+  justify-content: center;
+}
+#tema_principal2 div {
+  background-color: turquoise;
+  padding: 20px;
+  margin-right: 2px;
+  height: 30px;
+}
